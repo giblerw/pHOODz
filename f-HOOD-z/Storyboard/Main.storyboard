@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iZX-uC-Roi">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="f_HOOD_z" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Cards Left." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gm-Im-TT0">
+                                <rect key="frame" x="132.66666666666666" y="376" width="110" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w8K-oz-Scp" customClass="SwipeableCardViewContainer" customModule="f_HOOD_z" customModuleProvider="target">
+                                <rect key="frame" x="5" y="186" width="365" height="400"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="mdS-bL-djT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="w8K-oz-Scp" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="5YV-47-XQ7"/>
+                            <constraint firstItem="w8K-oz-Scp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8Br-tM-Kpz"/>
+                            <constraint firstItem="w8K-oz-Scp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="8vE-dw-Qgv"/>
+                            <constraint firstItem="7gm-Im-TT0" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="AMa-L3-fXD"/>
+                            <constraint firstItem="7gm-Im-TT0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RJu-RQ-HHc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w8K-oz-Scp" secondAttribute="trailing" constant="5" id="YA0-vK-wkK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="home-tab" id="WRh-SF-Mmr"/>
+                    <connections>
+                        <outlet property="swipeableCardView" destination="w8K-oz-Scp" id="JNP-R5-hCO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1182" y="133"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="g4l-Cc-HWq">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="iZX-uC-Roi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lMd-Kv-kCO">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" red="0.89615154269999997" green="0.27896335719999998" blue="0.22344629469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="m9Y-sy-6nA"/>
+                        <segue destination="aPU-SL-R2T" kind="relationship" relationship="viewControllers" id="3aK-zb-5sK"/>
+                        <segue destination="R4d-0o-GOv" kind="relationship" relationship="viewControllers" id="Qvg-At-Wi1"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bqL-xE-e4a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-163.19999999999999" y="133.00492610837438"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2xu-Sp-cjf">
+            <objects>
+                <viewController id="aPU-SL-R2T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gUO-GX-rg5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="4Cp-6k-rsq"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="grid-tab" id="z59-y0-jSB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SNs-N3-y4T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="502" y="1005"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="epp-FA-1EP">
+            <objects>
+                <viewController id="R4d-0o-GOv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="79Z-O6-nWB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="5hZ-nH-QFx"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="person-tab" id="01h-5T-XBG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sit-af-BUF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1094" y="1087"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="grid-tab" width="22" height="19"/>
+        <image name="home-tab" width="22" height="21"/>
+        <image name="person-tab" width="22" height="22"/>
+    </resources>
+</document>

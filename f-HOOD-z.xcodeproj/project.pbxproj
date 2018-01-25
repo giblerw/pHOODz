@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075FC984201A8C29000A23D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC983201A8C29000A23D3 /* AppDelegate.swift */; };
+		075FC986201A8C29000A23D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC985201A8C29000A23D3 /* ViewController.swift */; };
+		075FC98C201A8C29000A23D3 /* f_HOOD_z.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 075FC98A201A8C29000A23D3 /* f_HOOD_z.xcdatamodeld */; };
+		075FC9A0201A8F8C000A23D3 /* SwipeableCardViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC99F201A8F8C000A23D3 /* SwipeableCardViewContainer.swift */; };
+		075FC9A2201A8FB7000A23D3 /* SwipeableCardViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC9A1201A8FB7000A23D3 /* SwipeableCardViewDelegate.swift */; };
+		075FC9A4201A8FF1000A23D3 /* SwipeableCardViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC9A3201A8FF1000A23D3 /* SwipeableCardViewDataSource.swift */; };
+		075FC9A6201A901E000A23D3 /* SwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC9A5201A901E000A23D3 /* SwipeableView.swift */; };
+		075FC9A8201A9045000A23D3 /* SwipeableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC9A7201A9045000A23D3 /* SwipeableViewDelegate.swift */; };
+		075FC9AA201A9088000A23D3 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC9A9201A9088000A23D3 /* SwipeDirection.swift */; };
+		075FC9AC201A90A8000A23D3 /* CGPoint+SwipeableAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC9AB201A90A8000A23D3 /* CGPoint+SwipeableAdditions.swift */; };
+		075FC9AE201A90C5000A23D3 /* CGRect+SwipeAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC9AD201A90C5000A23D3 /* CGRect+SwipeAdditions.swift */; };
+		075FC9B0201A90E6000A23D3 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC9AF201A90E6000A23D3 /* NibView.swift */; };
+		075FC9B2201A910A000A23D3 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC9B1201A910A000A23D3 /* UIView+Constraints.swift */; };
+		075FC9B6201A9211000A23D3 /* SwipeableCardViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC9B5201A9211000A23D3 /* SwipeableCardViewCard.swift */; };
+		075FC9B8201A922C000A23D3 /* SwipeableCardViewCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075FC9B7201A922C000A23D3 /* SwipeableCardViewCard.xib */; };
+		075FC9BA201A923F000A23D3 /* SampleSwipeableCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC9B9201A923F000A23D3 /* SampleSwipeableCard.swift */; };
+		075FC9BC201A924D000A23D3 /* SampleSwipeableCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075FC9BB201A924D000A23D3 /* SampleSwipeableCard.xib */; };
+		075FC9BE201A9260000A23D3 /* SampleSwipeableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC9BD201A9260000A23D3 /* SampleSwipeableCellViewModel.swift */; };
+		075FC9C4201A92A6000A23D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075FC9C3201A92A6000A23D3 /* Main.storyboard */; };
+		075FC9C6201A92B7000A23D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075FC9C5201A92B7000A23D3 /* LaunchScreen.storyboard */; };
+		07C5CFE6201A94180083AA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C5CFE5201A94180083AA49 /* Assets.xcassets */; };
+		126BC16F84465269E9CFFE45 /* Pods_f_HOOD_z.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559688C66C9929478C17F27A /* Pods_f_HOOD_z.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		075FC980201A8C29000A23D3 /* f-HOOD-z.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "f-HOOD-z.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		075FC983201A8C29000A23D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		075FC985201A8C29000A23D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		075FC98B201A8C29000A23D3 /* f_HOOD_z.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = f_HOOD_z.xcdatamodel; sourceTree = "<group>"; };
+		075FC992201A8C29000A23D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075FC99F201A8F8C000A23D3 /* SwipeableCardViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardViewContainer.swift; sourceTree = "<group>"; };
+		075FC9A1201A8FB7000A23D3 /* SwipeableCardViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardViewDelegate.swift; sourceTree = "<group>"; };
+		075FC9A3201A8FF1000A23D3 /* SwipeableCardViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardViewDataSource.swift; sourceTree = "<group>"; };
+		075FC9A5201A901E000A23D3 /* SwipeableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableView.swift; sourceTree = "<group>"; };
+		075FC9A7201A9045000A23D3 /* SwipeableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableViewDelegate.swift; sourceTree = "<group>"; };
+		075FC9A9201A9088000A23D3 /* SwipeDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeDirection.swift; sourceTree = "<group>"; };
+		075FC9AB201A90A8000A23D3 /* CGPoint+SwipeableAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+SwipeableAdditions.swift"; sourceTree = "<group>"; };
+		075FC9AD201A90C5000A23D3 /* CGRect+SwipeAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+SwipeAdditions.swift"; sourceTree = "<group>"; };
+		075FC9AF201A90E6000A23D3 /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		075FC9B1201A910A000A23D3 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		075FC9B5201A9211000A23D3 /* SwipeableCardViewCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeableCardViewCard.swift; sourceTree = "<group>"; };
+		075FC9B7201A922C000A23D3 /* SwipeableCardViewCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwipeableCardViewCard.xib; sourceTree = "<group>"; };
+		075FC9B9201A923F000A23D3 /* SampleSwipeableCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleSwipeableCard.swift; sourceTree = "<group>"; };
+		075FC9BB201A924D000A23D3 /* SampleSwipeableCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleSwipeableCard.xib; sourceTree = "<group>"; };
+		075FC9BD201A9260000A23D3 /* SampleSwipeableCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleSwipeableCellViewModel.swift; sourceTree = "<group>"; };
+		075FC9C3201A92A6000A23D3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		075FC9C5201A92B7000A23D3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07C5CFE5201A94180083AA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AF4C199EB1A31EB4E52C6FF /* Pods-f-HOOD-z.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-f-HOOD-z.debug.xcconfig"; path = "Pods/Target Support Files/Pods-f-HOOD-z/Pods-f-HOOD-z.debug.xcconfig"; sourceTree = "<group>"; };
+		559688C66C9929478C17F27A /* Pods_f_HOOD_z.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_f_HOOD_z.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB608C433A7F5AA5DD87F39B /* Pods-f-HOOD-z.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-f-HOOD-z.release.xcconfig"; path = "Pods/Target Support Files/Pods-f-HOOD-z/Pods-f-HOOD-z.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		075FC97D201A8C29000A23D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126BC16F84465269E9CFFE45 /* Pods_f_HOOD_z.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075FC977201A8C29000A23D3 = {
+			isa = PBXGroup;
+			children = (
+				075FC982201A8C29000A23D3 /* f-HOOD-z */,
+				075FC981201A8C29000A23D3 /* Products */,
+				6E0BEEF150F1DA041E359BEE /* Pods */,
+				41F17A28E0A66F7A62E7EED5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		075FC981201A8C29000A23D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075FC980201A8C29000A23D3 /* f-HOOD-z.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		075FC982201A8C29000A23D3 /* f-HOOD-z */ = {
+			isa = PBXGroup;
+			children = (
+				075FC998201A8C64000A23D3 /* Assets */,
+				075FC999201A8C6D000A23D3 /* AppDelegate */,
+				075FC99A201A8C7E000A23D3 /* API */,
+				075FC99B201A8C86000A23D3 /* Model */,
+				075FC99C201A8C8F000A23D3 /* ViewController */,
+				075FC99D201A8C9D000A23D3 /* Storyboard */,
+				075FC99E201A8CAA000A23D3 /* View */,
+				075FC992201A8C29000A23D3 /* Info.plist */,
+				075FC98A201A8C29000A23D3 /* f_HOOD_z.xcdatamodeld */,
+			);
+			path = "f-HOOD-z";
+			sourceTree = "<group>";
+		};
+		075FC998201A8C64000A23D3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				07C5CFE5201A94180083AA49 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		075FC999201A8C6D000A23D3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				075FC983201A8C29000A23D3 /* AppDelegate.swift */,
+				075FC9A1201A8FB7000A23D3 /* SwipeableCardViewDelegate.swift */,
+				075FC9A7201A9045000A23D3 /* SwipeableViewDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		075FC99A201A8C7E000A23D3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		075FC99B201A8C86000A23D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				075FC9A3201A8FF1000A23D3 /* SwipeableCardViewDataSource.swift */,
+				075FC9BD201A9260000A23D3 /* SampleSwipeableCellViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		075FC99C201A8C8F000A23D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				075FC985201A8C29000A23D3 /* ViewController.swift */,
+				075FC9A9201A9088000A23D3 /* SwipeDirection.swift */,
+				075FC9AB201A90A8000A23D3 /* CGPoint+SwipeableAdditions.swift */,
+				075FC9AD201A90C5000A23D3 /* CGRect+SwipeAdditions.swift */,
+				075FC9B5201A9211000A23D3 /* SwipeableCardViewCard.swift */,
+				075FC9B9201A923F000A23D3 /* SampleSwipeableCard.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		075FC99D201A8C9D000A23D3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				075FC9BB201A924D000A23D3 /* SampleSwipeableCard.xib */,
+				075FC9B7201A922C000A23D3 /* SwipeableCardViewCard.xib */,
+				075FC9C3201A92A6000A23D3 /* Main.storyboard */,
+				075FC9C5201A92B7000A23D3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		075FC99E201A8CAA000A23D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				075FC99F201A8F8C000A23D3 /* SwipeableCardViewContainer.swift */,
+				075FC9A5201A901E000A23D3 /* SwipeableView.swift */,
+				075FC9AF201A90E6000A23D3 /* NibView.swift */,
+				075FC9B1201A910A000A23D3 /* UIView+Constraints.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41F17A28E0A66F7A62E7EED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				559688C66C9929478C17F27A /* Pods_f_HOOD_z.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E0BEEF150F1DA041E359BEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AF4C199EB1A31EB4E52C6FF /* Pods-f-HOOD-z.debug.xcconfig */,
+				FB608C433A7F5AA5DD87F39B /* Pods-f-HOOD-z.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		075FC97F201A8C29000A23D3 /* f-HOOD-z */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075FC995201A8C29000A23D3 /* Build configuration list for PBXNativeTarget "f-HOOD-z" */;
+			buildPhases = (
+				2A2727A99E7F4B4D7FE16222 /* [CP] Check Pods Manifest.lock */,
+				075FC97C201A8C29000A23D3 /* Sources */,
+				075FC97D201A8C29000A23D3 /* Frameworks */,
+				075FC97E201A8C29000A23D3 /* Resources */,
+				5FD6EAAA42BBA30F1660117F /* [CP] Embed Pods Frameworks */,
+				499A25F6042A4019472C9BA7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "f-HOOD-z";
+			productName = "f-HOOD-z";
+			productReference = 075FC980201A8C29000A23D3 /* f-HOOD-z.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		075FC978201A8C29000A23D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Weston Gibler";
+				TargetAttributes = {
+					075FC97F201A8C29000A23D3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 075FC97B201A8C29000A23D3 /* Build configuration list for PBXProject "f-HOOD-z" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 075FC977201A8C29000A23D3;
+			productRefGroup = 075FC981201A8C29000A23D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				075FC97F201A8C29000A23D3 /* f-HOOD-z */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		075FC97E201A8C29000A23D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075FC9BC201A924D000A23D3 /* SampleSwipeableCard.xib in Resources */,
+				075FC9B8201A922C000A23D3 /* SwipeableCardViewCard.xib in Resources */,
+				075FC9C4201A92A6000A23D3 /* Main.storyboard in Resources */,
+				075FC9C6201A92B7000A23D3 /* LaunchScreen.storyboard in Resources */,
+				07C5CFE6201A94180083AA49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A2727A99E7F4B4D7FE16222 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-f-HOOD-z-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		499A25F6042A4019472C9BA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-f-HOOD-z/Pods-f-HOOD-z-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FD6EAAA42BBA30F1660117F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-f-HOOD-z/Pods-f-HOOD-z-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-f-HOOD-z/Pods-f-HOOD-z-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075FC97C201A8C29000A23D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075FC9AC201A90A8000A23D3 /* CGPoint+SwipeableAdditions.swift in Sources */,
+				075FC9A8201A9045000A23D3 /* SwipeableViewDelegate.swift in Sources */,
+				075FC9BA201A923F000A23D3 /* SampleSwipeableCard.swift in Sources */,
+				075FC9BE201A9260000A23D3 /* SampleSwipeableCellViewModel.swift in Sources */,
+				075FC9AE201A90C5000A23D3 /* CGRect+SwipeAdditions.swift in Sources */,
+				075FC9B2201A910A000A23D3 /* UIView+Constraints.swift in Sources */,
+				075FC98C201A8C29000A23D3 /* f_HOOD_z.xcdatamodeld in Sources */,
+				075FC9B6201A9211000A23D3 /* SwipeableCardViewCard.swift in Sources */,
+				075FC9A2201A8FB7000A23D3 /* SwipeableCardViewDelegate.swift in Sources */,
+				075FC9A4201A8FF1000A23D3 /* SwipeableCardViewDataSource.swift in Sources */,
+				075FC9A6201A901E000A23D3 /* SwipeableView.swift in Sources */,
+				075FC986201A8C29000A23D3 /* ViewController.swift in Sources */,
+				075FC9B0201A90E6000A23D3 /* NibView.swift in Sources */,
+				075FC9AA201A9088000A23D3 /* SwipeDirection.swift in Sources */,
+				075FC9A0201A8F8C000A23D3 /* SwipeableCardViewContainer.swift in Sources */,
+				075FC984201A8C29000A23D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		075FC993201A8C29000A23D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		075FC994201A8C29000A23D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		075FC996201A8C29000A23D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF4C199EB1A31EB4E52C6FF /* Pods-f-HOOD-z.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JB4UT3447V;
+				INFOPLIST_FILE = "f-HOOD-z/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.westongibler.f-HOOD-z";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		075FC997201A8C29000A23D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB608C433A7F5AA5DD87F39B /* Pods-f-HOOD-z.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JB4UT3447V;
+				INFOPLIST_FILE = "f-HOOD-z/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.westongibler.f-HOOD-z";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		075FC97B201A8C29000A23D3 /* Build configuration list for PBXProject "f-HOOD-z" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075FC993201A8C29000A23D3 /* Debug */,
+				075FC994201A8C29000A23D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075FC995201A8C29000A23D3 /* Build configuration list for PBXNativeTarget "f-HOOD-z" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075FC996201A8C29000A23D3 /* Debug */,
+				075FC997201A8C29000A23D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		075FC98A201A8C29000A23D3 /* f_HOOD_z.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				075FC98B201A8C29000A23D3 /* f_HOOD_z.xcdatamodel */,
+			);
+			currentVersion = 075FC98B201A8C29000A23D3 /* f_HOOD_z.xcdatamodel */;
+			path = f_HOOD_z.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 075FC978201A8C29000A23D3 /* Project object */;
+}
