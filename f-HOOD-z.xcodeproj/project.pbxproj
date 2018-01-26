@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		072611D9201AFAD700E6F3EA /* PlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072611D8201AFAD700E6F3EA /* PlacesManager.swift */; };
+		072611DB201AFB1100E6F3EA /* GooglePlacesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072611DA201AFB1100E6F3EA /* GooglePlacesAPIClient.swift */; };
+		072611DD201AFB2500E6F3EA /* GooglePlaceJSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072611DC201AFB2500E6F3EA /* GooglePlaceJSONModel.swift */; };
+		072611DF201AFB3500E6F3EA /* GooglePlacePhotoJSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072611DE201AFB3500E6F3EA /* GooglePlacePhotoJSONModel.swift */; };
+		072611E1201AFB3F00E6F3EA /* GooglePlacesSearchResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072611E0201AFB3F00E6F3EA /* GooglePlacesSearchResponseModel.swift */; };
+		072611E3201AFB5F00E6F3EA /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072611E2201AFB5F00E6F3EA /* RestaurantListViewController.swift */; };
+		072611E5201AFB6900E6F3EA /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072611E4201AFB6900E6F3EA /* RestaurantDetailViewController.swift */; };
+		072611E7201AFB8700E6F3EA /* HeadlineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072611E6201AFB8700E6F3EA /* HeadlineCell.swift */; };
 		075FC984201A8C29000A23D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC983201A8C29000A23D3 /* AppDelegate.swift */; };
 		075FC986201A8C29000A23D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC985201A8C29000A23D3 /* ViewController.swift */; };
 		075FC98C201A8C29000A23D3 /* f_HOOD_z.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 075FC98A201A8C29000A23D3 /* f_HOOD_z.xcdatamodeld */; };
@@ -32,6 +40,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		072611D8201AFAD700E6F3EA /* PlacesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesManager.swift; sourceTree = "<group>"; };
+		072611DA201AFB1100E6F3EA /* GooglePlacesAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlacesAPIClient.swift; sourceTree = "<group>"; };
+		072611DC201AFB2500E6F3EA /* GooglePlaceJSONModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlaceJSONModel.swift; sourceTree = "<group>"; };
+		072611DE201AFB3500E6F3EA /* GooglePlacePhotoJSONModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlacePhotoJSONModel.swift; sourceTree = "<group>"; };
+		072611E0201AFB3F00E6F3EA /* GooglePlacesSearchResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlacesSearchResponseModel.swift; sourceTree = "<group>"; };
+		072611E2201AFB5F00E6F3EA /* RestaurantListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
+		072611E4201AFB6900E6F3EA /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		072611E6201AFB8700E6F3EA /* HeadlineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadlineCell.swift; sourceTree = "<group>"; };
 		075FC980201A8C29000A23D3 /* f-HOOD-z.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "f-HOOD-z.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		075FC983201A8C29000A23D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		075FC985201A8C29000A23D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +143,8 @@
 		075FC99A201A8C7E000A23D3 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				072611D8201AFAD700E6F3EA /* PlacesManager.swift */,
+				072611DA201AFB1100E6F3EA /* GooglePlacesAPIClient.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -134,6 +152,9 @@
 		075FC99B201A8C86000A23D3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				072611DC201AFB2500E6F3EA /* GooglePlaceJSONModel.swift */,
+				072611DE201AFB3500E6F3EA /* GooglePlacePhotoJSONModel.swift */,
+				072611E0201AFB3F00E6F3EA /* GooglePlacesSearchResponseModel.swift */,
 				075FC9A3201A8FF1000A23D3 /* SwipeableCardViewDataSource.swift */,
 				075FC9BD201A9260000A23D3 /* SampleSwipeableCellViewModel.swift */,
 			);
@@ -144,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				075FC985201A8C29000A23D3 /* ViewController.swift */,
+				072611E2201AFB5F00E6F3EA /* RestaurantListViewController.swift */,
+				072611E4201AFB6900E6F3EA /* RestaurantDetailViewController.swift */,
 				075FC9A9201A9088000A23D3 /* SwipeDirection.swift */,
 				075FC9AB201A90A8000A23D3 /* CGPoint+SwipeableAdditions.swift */,
 				075FC9AD201A90C5000A23D3 /* CGRect+SwipeAdditions.swift */,
@@ -167,6 +190,7 @@
 		075FC99E201A8CAA000A23D3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				072611E6201AFB8700E6F3EA /* HeadlineCell.swift */,
 				075FC99F201A8F8C000A23D3 /* SwipeableCardViewContainer.swift */,
 				075FC9A5201A901E000A23D3 /* SwipeableView.swift */,
 				075FC9AF201A90E6000A23D3 /* NibView.swift */,
@@ -305,10 +329,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-f-HOOD-z/Pods-f-HOOD-z-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,10 +355,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072611E1201AFB3F00E6F3EA /* GooglePlacesSearchResponseModel.swift in Sources */,
+				072611D9201AFAD700E6F3EA /* PlacesManager.swift in Sources */,
 				075FC9AC201A90A8000A23D3 /* CGPoint+SwipeableAdditions.swift in Sources */,
 				075FC9A8201A9045000A23D3 /* SwipeableViewDelegate.swift in Sources */,
 				075FC9BA201A923F000A23D3 /* SampleSwipeableCard.swift in Sources */,
+				072611E3201AFB5F00E6F3EA /* RestaurantListViewController.swift in Sources */,
 				075FC9BE201A9260000A23D3 /* SampleSwipeableCellViewModel.swift in Sources */,
+				072611E7201AFB8700E6F3EA /* HeadlineCell.swift in Sources */,
+				072611DF201AFB3500E6F3EA /* GooglePlacePhotoJSONModel.swift in Sources */,
 				075FC9AE201A90C5000A23D3 /* CGRect+SwipeAdditions.swift in Sources */,
 				075FC9B2201A910A000A23D3 /* UIView+Constraints.swift in Sources */,
 				075FC98C201A8C29000A23D3 /* f_HOOD_z.xcdatamodeld in Sources */,
@@ -334,10 +371,13 @@
 				075FC9A2201A8FB7000A23D3 /* SwipeableCardViewDelegate.swift in Sources */,
 				075FC9A4201A8FF1000A23D3 /* SwipeableCardViewDataSource.swift in Sources */,
 				075FC9A6201A901E000A23D3 /* SwipeableView.swift in Sources */,
+				072611DB201AFB1100E6F3EA /* GooglePlacesAPIClient.swift in Sources */,
 				075FC986201A8C29000A23D3 /* ViewController.swift in Sources */,
 				075FC9B0201A90E6000A23D3 /* NibView.swift in Sources */,
 				075FC9AA201A9088000A23D3 /* SwipeDirection.swift in Sources */,
+				072611DD201AFB2500E6F3EA /* GooglePlaceJSONModel.swift in Sources */,
 				075FC9A0201A8F8C000A23D3 /* SwipeableCardViewContainer.swift in Sources */,
+				072611E5201AFB6900E6F3EA /* RestaurantDetailViewController.swift in Sources */,
 				075FC984201A8C29000A23D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
