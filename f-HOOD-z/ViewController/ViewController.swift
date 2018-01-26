@@ -45,37 +45,42 @@ extension ViewController {
     
     var viewModels: [SampleSwipeableCellViewModel] {
         
-        let hamburger = SampleSwipeableCellViewModel(title: "McDonalds",
-                                                     subtitle: "Hamburger",
-                                                     color: UIColor(red:0.96, green:0.81, blue:0.46, alpha:1.0),
-                                                     image: #imageLiteral(resourceName: "hamburger"))
+        let Brider = SampleSwipeableCellViewModel(title: "Brider?",
+                                                  subtitle: "Distance: 0.1 Miles",
+                                                     color: UIColor(red:0.69, green:0.65, blue:0.89, alpha:1.0),
+                                                     image: #imageLiteral(resourceName: "brider"))
+
+        let PokeHouse = SampleSwipeableCellViewModel(title: "Poke House?",
+                                                 subtitle: "Distance: 0.1 Miles",
+                                                 color: UIColor(red:0.69, green:0.65, blue:0.89, alpha:1.0),
+                                                 image: #imageLiteral(resourceName: "pokeHouse2"))
         
-        let panda = SampleSwipeableCellViewModel(title: "Panda",
-                                                 subtitle: "Animal",
-                                                 color: UIColor(red:0.29, green:0.64, blue:0.96, alpha:1.0),
-                                                 image: #imageLiteral(resourceName: "panda"))
+        let DenverPokeCompany = SampleSwipeableCellViewModel(title: "Denver Poke Company?",
+                                                 subtitle: "Distance: 0.2 Miles",
+                                                 color: UIColor(red:0.69, green:0.65, blue:0.89, alpha:1.0),
+                                                 image: #imageLiteral(resourceName: "DenverPokeCom"))
         
-        let puppy = SampleSwipeableCellViewModel(title: "Puppy",
-                                                 subtitle: "Pet",
-                                                 color: UIColor(red:0.29, green:0.63, blue:0.49, alpha:1.0),
-                                                 image: #imageLiteral(resourceName: "puppy"))
+        let ColtGray = SampleSwipeableCellViewModel(title: "Colt & Gray?",
+                                                subtitle: "Distance: 0.2 Miles",
+                                                color: UIColor(red:0.69, green:0.65, blue:0.89, alpha:1.0),
+                                                image: #imageLiteral(resourceName: "coltgrey"))
+       
+        let SuperfoodBar = SampleSwipeableCellViewModel(title: "Superfood Bar?",
+                                                 subtitle: "Distance: 0.3 Miles",
+                                                 color: UIColor(red:0.69, green:0.65, blue:0.89, alpha:1.0),
+                                                 image: #imageLiteral(resourceName: "superfoods"))
         
-        let poop = SampleSwipeableCellViewModel(title: "Poop",
-                                                subtitle: "Smelly",
-                                                color: UIColor(red:0.69, green:0.52, blue:0.38, alpha:1.0),
-                                                image: #imageLiteral(resourceName: "poop"))
+        let InsideScoopCreamery = SampleSwipeableCellViewModel(title: "Inside Scoop Creamery",
+                                                 subtitle: "Distance: 0.3 Miles",
+                                                 color: UIColor(red:0.69, green:0.65, blue:0.89, alpha:1.0),
+                                                 image: #imageLiteral(resourceName: "InsideScoopCreamery"))
         
-        let robot = SampleSwipeableCellViewModel(title: "Robot",
-                                                 subtitle: "Future",
-                                                 color: UIColor(red:0.90, green:0.99, blue:0.97, alpha:1.0),
-                                                 image: #imageLiteral(resourceName: "robot"))
+        let SteEllie = SampleSwipeableCellViewModel(title: "Ste. Ellie?",
+                                            subtitle: "Distance: 0.3 Miles",
+                                            color: UIColor(red:0.69, green:0.65, blue:0.89, alpha:1.0),
+                                            image: #imageLiteral(resourceName: "SteEllie"))
         
-        let clown = SampleSwipeableCellViewModel(title: "Clown",
-                                                 subtitle: "Scary",
-                                                 color: UIColor(red:0.83, green:0.82, blue:0.69, alpha:1.0),
-                                                 image: #imageLiteral(resourceName: "clown"))
-        
-        return [hamburger, panda, puppy, poop, robot, clown]
+        return [Brider, PokeHouse, DenverPokeCompany, ColtGray, SuperfoodBar, InsideScoopCreamery, SteEllie]
     }
     
 }
